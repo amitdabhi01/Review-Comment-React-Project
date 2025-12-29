@@ -1,50 +1,16 @@
-https://review-comment-react-project.netlify.app/
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-⭐ React Review App
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-A simple React.js review application that allows users to submit their name, description, and rating, and displays the submitted reviews dynamically.
-Built using React Hooks and React-Bootstrap with a clean component-based structure.
+## React Compiler
 
-🚀 Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-✍️ Add a review with:
+## Expanding the ESLint configuration
 
-Name
-
-Description
-
-Rating (1–5)
-
-📋 Display a list of submitted reviews
-
-🔄 Real-time UI updates using React state
-
-🎨 Styled using React-Bootstrap
-
-🧩 Clean separation of components
-
-🛠️ Tech Stack
-
-React.js (with Hooks)
-
-Vite (for fast development)
-
-React-Bootstrap
-
-Bootstrap 5
-
-JavaScript (ES6+)
-
-📂 Project Structure
-src/
-│── Components/
-│   ├── ReviewContainer.jsx
-│   ├── ReviewForm.jsx
-│   └── ReviewList.jsx
-│
-├── App.jsx
-├── main.jsx
-├── index.css
-└── App.css
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
