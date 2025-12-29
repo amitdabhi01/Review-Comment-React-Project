@@ -28,11 +28,17 @@ CSS
 
 📂 Project Structure
 src/
+<br/>
  ├─ Components/
+ <br/>
  │   ├─ ReviewContainer.jsx
+ <br/>
  │   ├─ ReviewForm.jsx
+ <br/>
  │   └─ ReviewList.jsx
+ <br/>
  ├─ App.jsx
+ <br/>
  ├─ main.jsx
 
 ▶️ How to Run
@@ -40,7 +46,7 @@ npm install
 npm run dev
 
 
-Open: http://localhost:5173
+Open: https://review-comment-react-project.netlify.app/
 
 📸 Preview
 
